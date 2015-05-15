@@ -3,6 +3,8 @@ function [theta,ll] = newtonMethod(X,Y)
 % rows of Y are corresponding 0/1 values
 % newton raphson: theta = theta - inv(H)* grad;
 % with H = hessian, grad = gradient
+% ll = vector of log likelihood int each iteration
+
 m = size(X,1);
 n = size(X,2);
 theta = zeros(n,1);

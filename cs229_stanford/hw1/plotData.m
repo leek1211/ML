@@ -16,9 +16,9 @@ function plotData(x, y)
 
 figure; % open a new figure window
 
-plot(x, y,'x','MarkerSize', 10); % Plot the data
-ylabel('Profit in $10,000s'); % Set the y
-xlabel('Population of City in 10,000s'); % Set the x
+plot(x, y,'rx','MarkerSize', 10); % Plot the data
+ylabel('Y-axis'); % Set the y
+xlabel('X-axis'); % Set the x
   
 
 

@@ -5,3 +5,4 @@ Y = load('q1y.dat');
 [theta,ll] = newtonMethod(X,Y);
 
 theta
+ll 
