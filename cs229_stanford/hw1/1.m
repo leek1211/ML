@@ -1,8 +1,7 @@
 X = load('q1x.dat');
-y = load('q1y.dat');
+X = cat(2,ones(size(X,1),1),X);
+Y = load('q1y.dat');
 
-m = length(y);
+[theta,ll] = newtonMethod(X,Y);
 
-function[
-
-function[theta] = newtonMethod(X,y)
+theta
