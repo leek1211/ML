@@ -216,7 +216,7 @@ pause;
 %
 
 p = X * Theta';
-my_predictions = p(:,1) + Ymean;
+my_predictions = (p(:,1) + Ymean)/2;
 
 movieList = loadMovieList();
 
